@@ -21,4 +21,10 @@ public class OrderController {
 		
 		return service.saveOrder(order);
 	}
+	
+	@PostMapping("/bookOrder1")
+	public Order bookOrder1(@RequestBody Order order) {
+		
+		return service.saveOrder(order);
+	}
 }
